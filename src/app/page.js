@@ -1,4 +1,4 @@
-import Header from './components/header'
+
 import Hero from './components/hero'
 import Location from './components/collectlocation'
 
@@ -11,7 +11,7 @@ import Footer from './components/footer'
 export default function Home() {
   return (
     <div>
-      <Header />
+      
       <Hero />
       
   
