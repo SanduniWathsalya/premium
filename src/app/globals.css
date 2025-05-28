@@ -2,19 +2,14 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+ 
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+   
     --foreground: #ededed;
   }
 }
@@ -23,4 +18,38 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.auto-scroll {
+  display: flex;
+  animation: scroll-left 30s linear infinite;
+}
+
+.auto-scroll:hover {
+  animation-play-state: paused;
+}
+
+@keyframes spin-slow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 5s linear infinite;
+  background-size: 300% 300%;
+  background-image: linear-gradient(270deg, 
+    red, orange, yellow, green, blue, indigo, violet, red);
 }
