@@ -151,7 +151,8 @@ export default function PremiumHero() {
   return (
    <section id= "featured">
     <div className="w-full bg-white py-10 px-4 md:px-16 mt-50">
-       <div className="flex flex-col lg:flex-row items-stretch gap-6">
+      <div className="mt-4 sm:mt-6 md:mt-0 flex flex-col lg:flex-row items-stretch gap-6">
+
       {/* Left Image */}
       <div className="flex-1 overflow-hidden">
         <img
@@ -195,6 +196,19 @@ export default function PremiumHero() {
         />
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 {/* Bottom Featured Grid */}
 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
 
@@ -224,19 +238,19 @@ export default function PremiumHero() {
   {/* Card 2 - Two stacked cards */}
  <div className="flex flex-col gap-4 mt-0">
   {/* Top Image */}
-  <div className="relative bg-white rounded-md shadow-md overflow-visible group">
+  <div className="relative bg-white rounded-md shadow-md overflow-visible group  w-full">
     <div className="relative w-full h-[200px]">
       {/* Default image */}
       <img
         src="/images/hero4.jpeg"
         alt="Summer Top"
-        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+        className="w-full h-[200px] object-fill items-center transition-opacity duration-300 group-hover:opacity-0"
       />
       {/* Hover image with pop-up and height increase */}
       <img
         src="/images/hero4.1.jpeg"
         alt="Summer Top Hover"
-        className="w-full h-[400px] object-cover absolute top-0 left-0 opacity-0 z-10 transition-all duration-300 transform group-hover:opacity-100 group-hover:scale-110 group-hover:-translate-y-5 group-hover:z-20 rounded-md shadow-lg"
+        className="w-full h-[200px] object-fill items-center absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
       />
     </div>
     <div className="absolute top-2 right-2 z-30">
@@ -249,25 +263,27 @@ export default function PremiumHero() {
   </div>
 
   {/* Bottom Image */}
-  <div className="relative bg-white rounded-md shadow-md overflow-visible group">
+  <div className="relative bg-white rounded-md shadow-md overflow-visible group  w-full">
     <div className="relative w-full h-[200px]">
+      {/* Default image */}
       <img
         src="/images/premium12.jpeg"
-        alt="Classic Blouse"
-        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+        alt="Summer Top"
+        className="w-full h-[200px] object-fill items-center transition-opacity duration-300 group-hover:opacity-0"
       />
+      {/* Hover image with pop-up and height increase */}
       <img
         src="/images/premium12.1.jpeg"
-        alt="Classic Blouse Hover"
-        className="w-full h-[400px] object-cover absolute top-0 left-0 opacity-0 z-10 transition-all duration-300 transform group-hover:opacity-100 group-hover:scale-110 group-hover:-translate-y-5 group-hover:z-20 rounded-md shadow-lg"
+        alt="Summer Top Hover"
+        className="w-full h-[200px] object-fill items-center absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
       />
     </div>
     <div className="absolute top-2 right-2 z-30">
       <button className="text-yellow-400 text-xl">&#9733;</button>
     </div>
     <div className="p-4">
-      <h3 className="text-lg font-semibold text-black">ALT 03</h3>
-      <p className="text-gray-800">$65.00</p>
+      <h3 className="text-lg font-semibold text-black">ALT 02</h3>
+      <p className="text-gray-800">$45.00</p>
     </div>
   </div>
 </div>
@@ -299,110 +315,9 @@ export default function PremiumHero() {
 </div>
 
 
-
-
-     <div className="flex justify-center gap-4 mt-10">
-  {/* Item 1 */}
-  <div className="w-1/4 relative bg-white rounded-md shadow-md overflow-hidden group">
-    <div className="relative w-full h-[300px]">
-      <img
-        src="/images/premium4.jpeg"
-        alt="Silk Top"
-        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
-      />
-      <img
-        src="/images/premium4.1.jpeg"
-        alt="Silk Top Hover"
-        className="w-full h-full object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-md"
-      />
-    </div>
-    <div className="absolute top-2 right-2 z-10">
-      <button className="text-yellow-400 text-xl">&#9733;</button>
-    </div>
-    <div className="p-4">
-      <h3 className="text-lg font-semibold text-black">ALT 05</h3>
-      <p className="text-gray-800">$75.00</p>
-    </div>
-  </div>
-
-  {/* Item 2 */}
-  <div className="w-1/4 relative bg-white rounded-md shadow-md overflow-hidden group mt-20">
-    <div className="relative w-full h-[300px]">
-      <img
-        src="/images/premium5.jpeg"
-        alt="Chiffon Blouse"
-        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
-      />
-      <img
-        src="/images/premium5.1.jpeg"
-        alt="Chiffon Blouse Hover"
-        className="w-full h-full object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-md"
-      />
-    </div>
-    <div className="absolute top-2 right-2 z-10">
-      <button className="text-yellow-400 text-xl">&#9733;</button>
-    </div>
-    <div className="p-4">
-      <h3 className="text-lg font-semibold text-black">ALT 06</h3>
-      <p className="text-gray-800">$65.00</p>
-    </div>
-  </div>
-
-  {/* Item 3 */}
-  <div className="w-1/4 relative bg-white rounded-md shadow-md overflow-hidden group">
-    <div className="relative w-full h-[300px]">
-      <img
-        src="/images/premium6.jpeg"
-        alt="Cotton Shirt"
-        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
-      />
-      <img
-        src="/images/premium6.1.jpeg"
-        alt="Cotton Shirt Hover"
-        className="w-full h-full object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-md"
-      />
-    </div>
-    <div className="absolute top-2 right-2 z-10">
-      <button className="text-yellow-400 text-xl">&#9733;</button>
-    </div>
-    <div className="p-4">
-      <h3 className="text-lg font-semibold text-black">ALT 07</h3>
-      <p className="text-gray-800">$55.00</p>
-    </div>
-  </div>
-
-  {/* Item 4 */}
-  <div className="w-1/4 relative bg-white rounded-md shadow-md overflow-hidden group mt-20">
-    <div className="relative w-full h-[300px]">
-      <img
-        src="/images/premium7.jpeg"
-        alt="Denim Jacket"
-        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
-      />
-      <img
-        src="/images/premium7.1.jpeg"
-        alt="Denim Jacket Hover"
-        className="w-full h-full object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-md"
-      />
-    </div>
-    <div className="absolute top-2 right-2 z-10">
-      <button className="text-yellow-400 text-xl">&#9733;</button>
-    </div>
-    <div className="p-4">
-      <h3 className="text-lg font-semibold text-black">ALT 08</h3>
-      <p className="text-gray-800">$120.00</p>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-<div className="flex gap-4 mt-10">
+<div className="flex flex-col lg:flex-row gap-4 mt-10">
   {/* Left Side - One Tall Image */}
-<div className="w-2/4">
+ <div className="w-full lg:w-2/4">
   <video
     src="/videos/88b06fc36930fdaf8ea3d162259cc2ef.mp4" // Replace with your actual video path
     autoPlay
@@ -418,7 +333,7 @@ export default function PremiumHero() {
 
 
   {/* Right Side - 3x2 Grid of Images */}
- <div className="w-3/4 grid grid-cols-3 gap-4">
+  <div className="w-full lg:w-3/4 grid grid-cols-1 lg:grid-cols-3 gap-4">
   {/* Image 1 Card */}
   <div className="relative bg-white rounded-md shadow-md overflow-hidden group">
     <div className="relative w-full h-[300px]">
@@ -577,28 +492,261 @@ export default function PremiumHero() {
 
     <div className="relative  overflow-hidden m-0 p-0 mb-20">
       {/* Background image */}
-      <img
-        src="/images/hero_06.jpeg"
-        alt="Premium Products"
-        className="w-screen h-auto object-cover"
-      />
+<img
+  src="/images/hero_06.jpeg"
+  alt="Premium Products"
+  className="w-screen h-[300px] md:h-auto object-fill"
+/>
+  
+  {/* Text content */}
+     <div className="absolute top-16 md:top-[150px] left-4 md:left-10 z-10 sm:mt-20">
+  <div
+    className={`transition-opacity duration-1000 ${
+      fade ? "opacity-100" : "opacity-0"
+    }`}
+  >
+    <h1 className="text-white text-xl md:text-5xl font-bold mb-2 md:mb-3">
+      {messages[currentIndex].title}
+    </h1>
+    <p className="text-white text-sm md:text-xl max-w-xs md:max-w-lg">
+      {messages[currentIndex].subtitle}
+    </p>
+  </div>
+</div>
 
-      
-      {/* Text content */}
-      <div className="absolute top-50 left-10 z-10">
-        <div
-          className={`transition-opacity duration-4000 ${
-            fade ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <h1 className="text-white text-3xl md:text-5xl font-bold mb-3">
-            {messages[currentIndex].title}
-          </h1>
-          <p className="text-white text-base md:text-xl max-w-lg">
-            {messages[currentIndex].subtitle}
-          </p>
-        </div>
-      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="flex flex-col md:flex-row gap-4 mt-10">
+  {/* Left Side - One Tall Image */}
+ <div className="w-full md:w-2/4">
+ <img
+        src="/images/3cbd035d1fc1f73b17d04d7ee9fc7e6d-removebg-preview.png"
+        alt="Classic Blouse"
+        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+      />
+   
+</div>
+
+
+  {/* Right Side - 2x2 Grid of Images */}
+ <div className="w-full md:w-3/4 grid grid-cols-1 md:grid-cols-2 gap-4 px-5">
+  {/* Image 1 Card */}
+  <div className="relative bg-white rounded-md shadow-md overflow-hidden group">
+    <div className="relative w-full h-[300px]">
+      <img
+        src="/images/premium9.jpeg"
+        alt="Classic Blouse"
+        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+      />
+      <img
+        src="/images/premium9.1.jpeg"
+        alt="Classic Blouse Hover"
+        className="w-full h-full object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-md"
+      />
+    </div>
+    <div className="absolute top-2 right-2 z-10">
+      <button className="text-yellow-400 text-xl">&#9733;</button>
+    </div>
+    <div className="p-4">
+      <h3 className="text-lg font-semibold text-black">ALT 09</h3>
+      <p className="text-gray-800">$89.00</p>
+    </div>
+  </div>
+
+  
+
+
+  {/* Image 2 */}
+ <div className="relative bg-white rounded-md shadow-md overflow-hidden group">
+    <div className="relative w-full h-[300px]">
+      <img
+        src="/images/premium10.jpeg"
+        alt="Classic Blouse"
+        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+      />
+      <img
+        src="/images/premium10.1.jpeg"
+        alt="Classic Blouse Hover"
+        className="w-full h-full object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-md"
+      />
+    </div>
+    <div className="absolute top-2 right-2 z-10">
+      <button className="text-yellow-400 text-xl">&#9733;</button>
+    </div>
+    <div className="p-4">
+      <h3 className="text-lg font-semibold text-black">ALT 10</h3>
+      <p className="text-gray-800">$89.00</p>
+    </div>
+  </div>
+
+  
+
+  {/* Image 3 */}
+  <div className="relative bg-white rounded-md shadow-md overflow-hidden group">
+    <div className="relative w-full h-[300px]">
+      <img
+        src="/images/premium11.jpeg"
+        alt="Classic Blouse"
+        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+      />
+      <img
+        src="/images/premium11.1.jpeg"
+        alt="Classic Blouse Hover"
+        className="w-full h-full object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-md"
+      />
+    </div>
+    <div className="absolute top-2 right-2 z-10">
+      <button className="text-yellow-400 text-xl">&#9733;</button>
+    </div>
+    <div className="p-4">
+      <h3 className="text-lg font-semibold text-black">ALT 11</h3>
+      <p className="text-gray-800">$89.00</p>
+    </div>
+  </div>
+
+  
+  {/* Image 4 */}
+  <div className="relative bg-white rounded-md shadow-md overflow-hidden group">
+    <div className="relative w-full h-[300px]">
+      <img
+        src="/images/premium5.jpeg"
+        alt="Classic Blouse"
+        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+      />
+      <img
+        src="/images/premium5.1.jpeg"
+        alt="Classic Blouse Hover"
+        className="w-full h-full object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-md"
+      />
+    </div>
+    <div className="absolute top-2 right-2 z-10">
+      <button className="text-yellow-400 text-xl">&#9733;</button>
+    </div>
+    <div className="p-4">
+      <h3 className="text-lg font-semibold text-black">ALT 12</h3>
+      <p className="text-gray-800">$89.00</p>
+    </div>
+  </div>
+
+
+</div>
+  <div className="w-full md:w-2/4">
+ <img
+        src="/images/6e252793a97ddec1971d0519ebe2dc57-removebg-preview.png"
+        alt="Classic Blouse"
+        className="w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+      />
+   
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 {/* All Featured Products Grid */}

@@ -1,44 +1,45 @@
 export default function SaleBanner() {
   return (
-    <section  className="absolute top-190 left-0 w-full z-20 transform -translate-y-24 px-8 py-2">
+    <section  className="absolute left-0 w-full z-20 transform -translate-y-24 px-8 py-2">
      
+<div className="grid grid-cols-2 gap-4 w-full px-2 sm:px-4 max-w-full mx-auto">
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto ">
-        {/* New Arrivals */}
-      <div className="relative h-64  overflow-hidden shadow-lg group">
-  <img
-    src="/images/hero2.jpeg"
-    alt="New Arrivals"
-    className="w-full h-full object-cover transform group-hover:scale-105 transition duration-300"
-  />
-<div className="absolute inset-0 bg-gray-500/50 p-6 flex flex-col justify-center items-start">
-  <h3 className="text-black text-2xl font-semibold mb-2">New Arrivals</h3>
-  <p className="text-black mb-4">Discover the latest trends and styles now available.</p>
-  <button className="bg-yellow-600 text-white px-4 py-2 rounded hover:bg-yellow-800 transition">
-    Shop Now
-  </button>
+  {/* New Arrivals */}
+  <div className="relative h-64 overflow-hidden shadow-lg group">
+    <img
+      src="/images/hero2.jpeg"
+      alt="New Arrivals"
+      className="w-full h-full object-fill transform group-hover:scale-105 transition duration-300"
+    />
+    <div className="absolute inset-0 bg-gray-500/50 p-2 sm:p-4 flex flex-col justify-center items-start w-full">
+      <h3 className="text-black text-xs sm:text-xl font-semibold mb-2 w-full ml-0 sm:ml-10">New Arrivals</h3>
+      <p className="text-black text-xs sm:text-base mb-4 w-full ml-0 sm:ml-10">
+        Discover the latest trends!
+      </p>
+      <button className="ml-0 sm:ml-10 bg-yellow-600 text-white text-xs sm:text-base px-3 py-1 sm:px-4 sm:py-2 rounded hover:bg-yellow-800 transition mt-1">
+        Shop Now
+      </button>
+    </div>
+  </div>
+
+  {/* Hot Sale */}
+  <div className="relative h-64 overflow-hidden shadow-lg group">
+    <img
+      src="/images/b97d16daffa607154096f52f798d69ac.jpg"
+      alt="Hot Sale"
+      className="w-full h-full object-fill transform group-hover:scale-105 transition duration-300"
+    />
+    <div className="absolute inset-0 bg-gray-500/50 p-2 sm:p-4 flex flex-col justify-center items-start w-full">
+      <h3 className="text-black text-xs sm:text-xl font-semibold mb-2 w-full ml-0 sm:ml-10">Hot Sale</h3>
+      <p className="text-black text-xs sm:text-base mb-4 w-full ml-0 sm:ml-10">Limited time offers!</p>
+      <button className="ml-0 sm:ml-10 bg-yellow-600 text-white text-xs sm:text-base px-3 py-1 sm:px-4 sm:py-2 rounded hover:bg-yellow-800 transform hover:scale-105 transition mt-1">
+        Shop Now
+      </button>
+    </div>
+  </div>
 </div>
 
-</div>
 
-
-        {/* Hot Sale */}
-        <div className="relative h-64  overflow-hidden shadow-lg group" >
-          <img
-            src="/images/jj.jpeg" // Make sure this image exists in your public/images folder
-            alt="Hot Sale"
-            className="w-full h-full object-cover transform group-hover:scale-105 transition duration-300"
-          />
-         <div className="absolute inset-0 bg-gray-500/50 p-6 flex flex-col justify-center items-start">
-  <h3 className="text-black text-2xl font-semibold mb-2">Hot Sale</h3>
-  <p className="text-black mb-4">Limited time offers!</p>
-  <button className="bg-yellow-600 text-white px-4 py-2 rounded hover:bg-yellow-800 transform hover:scale-105 transition duration-300">
-    Shop Now
-  </button>
-</div>
-
-       </div>
-      </div>
     </section>
   );
 }
