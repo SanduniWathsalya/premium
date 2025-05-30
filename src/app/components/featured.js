@@ -539,9 +539,6 @@ export default function PremiumHero() {
     </div>
   </div>
 
-  
-
-
   {/* Image 2 */}
  <div className="relative bg-white rounded-md shadow-md overflow-hidden group">
     <div className="relative w-full h-[300px]">
@@ -564,8 +561,6 @@ export default function PremiumHero() {
       <p className="text-gray-800">$89.00</p>
     </div>
   </div>
-
-  
 
   {/* Image 3 */}
   <div className="relative bg-white rounded-md shadow-md overflow-hidden group">
@@ -626,98 +621,6 @@ export default function PremiumHero() {
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {/* All Featured Products Grid */}
 <div className="mt-16 px-4 md:px-16">
   
@@ -755,9 +658,6 @@ export default function PremiumHero() {
   </div>
 </div>
 
-
-
-      
     </div>
 
     </section>
