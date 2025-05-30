@@ -26,7 +26,7 @@ export default function SaleBanner() {
           variants={fadeUpVariant}
         >
           <img
-            src="/images/hero2.jpeg"
+            src="/images/card1.jpeg"
             alt="New Arrivals"
             className="w-full h-full object-fill transform group-hover:scale-105 transition duration-300"
           />
@@ -51,7 +51,7 @@ export default function SaleBanner() {
           variants={fadeUpVariant}
         >
           <img
-            src="/images/b97d16daffa607154096f52f798d69ac.jpg"
+            src="/images/card2.jpg"
             alt="Hot Sale"
             className="w-full h-full object-fill transform group-hover:scale-105 transition duration-300"
           />

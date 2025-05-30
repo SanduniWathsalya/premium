@@ -42,8 +42,8 @@ export default function PremiumHero() {
   }, []);
 
    // Arrays of image URLs for each side
-  const leftImages = ["/images/left-image.jpg", "/images/hero7.jpeg"];
-  const rightImages = ["/images/right-image.jpg", "/images/hero8.jpeg"];
+  const leftImages = ["/images/featured1.jpg", "/images/featured1.1.jpeg"];
+  const rightImages = ["/images/featured2.jpg", "/images/featured2.1.jpeg"];
 
   const [leftIndex, setLeftIndex] = useState(0);
   const [rightIndex, setRightIndex] = useState(0);
@@ -231,7 +231,7 @@ export default function PremiumHero() {
     <div className="relative w-full h-[200px]">
       {/* Default image */}
       <img
-        src="/images/hero4.jpeg"
+        src="/images/hero1.1.jpeg"
         alt="Summer Top"
         className="w-full h-[200px] object-fill items-center transition-opacity duration-300 group-hover:opacity-0"
       />

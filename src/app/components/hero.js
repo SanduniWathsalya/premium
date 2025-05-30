@@ -28,7 +28,7 @@ export default function Hero() {
       className="relative w-full h-200 min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat transition-all duration-700"
       style={{
         backgroundImage: scrolled
-          ? "url('/images/hero4.jpeg')"
+          ? "url('/images/hero1.1.jpeg')"
           : "url('/images/hero.jpeg')",
       }}
     >
