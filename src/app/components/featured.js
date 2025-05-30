@@ -197,18 +197,6 @@ export default function PremiumHero() {
       </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
 {/* Bottom Featured Grid */}
 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
 
@@ -282,7 +270,7 @@ export default function PremiumHero() {
       <button className="text-yellow-400 text-xl">&#9733;</button>
     </div>
     <div className="p-4">
-      <h3 className="text-lg font-semibold text-black">ALT 02</h3>
+      <h3 className="text-lg font-semibold text-black">ALT 03</h3>
       <p className="text-gray-800">$45.00</p>
     </div>
   </div>
@@ -513,25 +501,6 @@ export default function PremiumHero() {
     </p>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div className="flex flex-col md:flex-row gap-4 mt-10">
   {/* Left Side - One Tall Image */}
