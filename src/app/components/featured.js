@@ -150,8 +150,9 @@ export default function PremiumHero() {
 
   return (
    <section id= "featured">
-    <div className="w-full bg-white py-10 px-4 md:px-16 mt-50">
-      <div className="mt-4 sm:mt-6 md:mt-0 flex flex-col lg:flex-row items-stretch gap-6">
+    <div className="w-full bg-white py-10 px-4 md:px-16 mt-20 sm:mt-50">
+    <div className="mt-4 sm:mt-20 md:mt-0 flex flex-col lg:flex-row items-stretch gap-6">
+
 
       {/* Left Image */}
       <div className="flex-1 overflow-hidden">

@@ -15,15 +15,14 @@ const fadeUpVariant = {
 
 export default function SaleBanner() {
   return (
-    <section className="absolute left-0 w-full z-20 transform -translate-y-24 px-8 py-2">
+    <section className="absolute left-0 w-full z-20 transform -translate-y-24">
       <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 w-full px-2 sm:px-4 max-w-4xl mx-auto">
 
         {/* New Arrivals */}
         <motion.div
-          className="relative h-64 overflow-hidden shadow-lg group"
+          className="relative h-40 sm:h-64 overflow-hidden shadow-lg group"
           initial="hidden"
           whileInView="visible"
-        
           variants={fadeUpVariant}
         >
           <img
@@ -46,10 +45,9 @@ export default function SaleBanner() {
 
         {/* Hot Sale */}
         <motion.div
-          className="relative h-64 overflow-hidden shadow-lg group"
+          className="relative h:40 sm:h-64 overflow-hidden shadow-lg group"
           initial="hidden"
           whileInView="visible"
-         
           variants={fadeUpVariant}
         >
           <img
