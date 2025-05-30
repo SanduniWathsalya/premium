@@ -1,4 +1,4 @@
-
+"use client"
 import Hero from './components/hero'
 import Location from './components/collectlocation'
 
