@@ -306,19 +306,19 @@ export default function PremiumHero() {
 
 <div className="flex flex-col lg:flex-row gap-4 mt-10">
   {/* Left Side - One Tall Image */}
- <div className="w-full lg:w-2/4">
+ <div className="w-full lg:w-2/4 p-0 m-0">
   <video
-    src="/videos/88b06fc36930fdaf8ea3d162259cc2ef.mp4" // Replace with your actual video path
+    src="/videos/88b06fc36930fdaf8ea3d162259cc2ef.mp4"
     autoPlay
     loop
     muted
     playsInline
-    className="w-full h-full object-fill rounded-md transition duration-500"
-    style={{ height: "800px" }}
+    className="w-full h-[400px] lg:h-[800px] object-cover rounded-md transition duration-500 block"
   >
     Your browser does not support the video tag.
   </video>
 </div>
+
 
 
   {/* Right Side - 3x2 Grid of Images */}
@@ -488,7 +488,8 @@ export default function PremiumHero() {
 />
   
   {/* Text content */}
-     <div className="absolute top-16 md:top-[150px] left-4 md:left-10 z-10 sm:mt-20">
+     <div className="absolute top-32 md:top-[150px] left-4 md:left-10 z-10">
+
   <div
     className={`transition-opacity duration-1000 ${
       fade ? "opacity-100" : "opacity-0"

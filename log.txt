@@ -502,3 +502,26 @@ System.Threading.Channels.ChannelClosedException: The channel has been closed.
 2025-05-30 10:40:21.531 +05:30 [VRB] Converting params for Notification $/setTrace to OmniSharp.Extensions.LanguageServer.Protocol.Models.SetTraceParams
 2025-05-30 10:40:21.618 +05:30 [DBG] Finished: Routing Notification $/setTrace in 86ms
 2025-05-30 10:40:21.619 +05:30 [DBG] Finished: Processing notification $/setTrace in 88ms
+2025-05-30 13:52:33.841 +05:30 [VRB] Could not write to output handler, perhaps serialization failed?
+System.Threading.Channels.ChannelClosedException: The channel has been closed.
+   at System.Threading.Channels.AsyncOperation`1.GetResult(Int16 token)
+   at OmniSharp.Extensions.JsonRpc.OutputHandler.ProcessOutputStream(CancellationToken cancellationToken)
+2025-06-02 11:26:36.561 +05:30 [INF] This only goes file...
+2025-06-02 11:26:51.454 +05:30 [INF] Foo
+2025-06-02 11:26:51.865 +05:30 [DBG] Finding descriptors for initialize
+2025-06-02 11:26:53.553 +05:30 [DBG] Queueing "Serial":initialize:0 request for processing
+2025-06-02 11:26:53.726 +05:30 [DBG] Starting: Processing request initialize 0
+2025-06-02 11:26:53.730 +05:30 [DBG] Starting: Routing Request (0) initialize
+2025-06-02 11:26:53.734 +05:30 [VRB] Converting params for Request (0) initialize to OmniSharp.Extensions.LanguageServer.Protocol.Models.InternalInitializeParams
+2025-06-02 11:26:53.784 +05:30 [VRB] Converting params for Notification initialize to OmniSharp.Extensions.LanguageServer.Protocol.Models.InternalInitializeParams
+2025-06-02 11:27:02.196 +05:30 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.InitializeResult
+2025-06-02 11:27:02.560 +05:30 [DBG] Finished: Routing Request (0) initialize in 8828ms
+2025-06-02 11:27:02.562 +05:30 [DBG] Finished: Processing request initialize 0 in 8832ms
+2025-06-02 11:27:10.197 +05:30 [DBG] Finding descriptors for initialized
+2025-06-02 11:27:10.212 +05:30 [DBG] Queueing "Serial":initialized request for processing
+2025-06-02 11:27:10.230 +05:30 [DBG] Starting: Processing notification initialized
+2025-06-02 11:27:10.231 +05:30 [DBG] Starting: Routing Notification initialized
+2025-06-02 11:27:10.232 +05:30 [VRB] Converting params for Notification initialized to OmniSharp.Extensions.LanguageServer.Protocol.Models.InitializedParams
+2025-06-02 11:27:10.799 +05:30 [WRN] No ConfigurationItems have been defined, configuration won't surface any configuration from the client!
+2025-06-02 11:27:11.145 +05:30 [DBG] Finished: Routing Notification initialized in 912ms
+2025-06-02 11:27:11.145 +05:30 [DBG] Finished: Processing notification initialized in 914ms
