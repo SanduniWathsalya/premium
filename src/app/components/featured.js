@@ -227,54 +227,56 @@ export default function PremiumHero() {
   {/* Card 2 - Two stacked cards */}
  <div className="flex flex-col gap-4 mt-0">
   {/* Top Image */}
-  <div className="relative bg-white rounded-md shadow-md overflow-visible group  w-full">
-    <div className="relative w-full h-[200px]">
-      {/* Default image */}
-      <img
-        src="/images/hero1.1.jpeg"
-        alt="Summer Top"
-        className="w-full h-[200px] object-fill items-center transition-opacity duration-300 group-hover:opacity-0"
-      />
-      {/* Hover image with pop-up and height increase */}
-      <img
-        src="/images/hero4.1.jpeg"
-        alt="Summer Top Hover"
-        className="w-full h-[200px] object-fill items-center absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-      />
-    </div>
-    <div className="absolute top-2 right-2 z-30">
-      <button className="text-yellow-400 text-xl">&#9733;</button>
-    </div>
-    <div className="p-4">
-      <h3 className="text-lg font-semibold text-black">ALT 02</h3>
-      <p className="text-gray-800">$45.00</p>
-    </div>
+  <div className="relative bg-white rounded-md shadow-md overflow-visible group w-full max-w-[300px] mx-auto">
+  <div className="relative w-full h-[200px]">
+    {/* Default image */}
+    <img
+      src="/images/hero1.1.jpeg"
+      alt="Summer Top"
+      className="w-full h-full object-fix transition-opacity duration-300 group-hover:opacity-0 rounded-md"
+    />
+    {/* Hover image */}
+    <img
+      src="/images/hero4.1.jpeg"
+      alt="Summer Top Hover"
+      className="w-full h-full object-fix absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-md"
+    />
   </div>
+  <div className="absolute top-2 right-2 z-30">
+    <button className="text-yellow-400 text-xl">&#9733;</button>
+  </div>
+  <div className="p-4">
+    <h3 className="text-lg font-semibold text-black">ALT 02</h3>
+    <p className="text-gray-800">$45.00</p>
+  </div>
+</div>
+
 
   {/* Bottom Image */}
-  <div className="relative bg-white rounded-md shadow-md overflow-visible group  w-full">
-    <div className="relative w-full h-[200px]">
-      {/* Default image */}
-      <img
-        src="/images/premium12.jpeg"
-        alt="Summer Top"
-        className="w-full h-[200px] object-fill items-center transition-opacity duration-300 group-hover:opacity-0"
-      />
-      {/* Hover image with pop-up and height increase */}
-      <img
-        src="/images/premium12.1.jpeg"
-        alt="Summer Top Hover"
-        className="w-full h-[200px] object-fill items-center absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-      />
-    </div>
-    <div className="absolute top-2 right-2 z-30">
-      <button className="text-yellow-400 text-xl">&#9733;</button>
-    </div>
-    <div className="p-4">
-      <h3 className="text-lg font-semibold text-black">ALT 03</h3>
-      <p className="text-gray-800">$45.00</p>
-    </div>
+  <div className="relative bg-white rounded-md shadow-md overflow-visible group w-full max-w-[300px] mx-auto">
+  <div className="relative w-full h-[200px]">
+    {/* Default image */}
+    <img
+      src="/images/alt2.jpeg"
+      alt="Summer Top"
+      className="w-full h-full object-fix transition-opacity duration-300 group-hover:opacity-0 rounded-md"
+    />
+    {/* Hover image */}
+    <img
+      src="/images/alt2.1.jpeg"
+      alt="Summer Top Hover"
+      className="w-full h-full object-fix absolute top-0 left-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 rounded-md"
+    />
   </div>
+  <div className="absolute top-2 right-2 z-30">
+    <button className="text-yellow-400 text-xl">&#9733;</button>
+  </div>
+  <div className="p-4">
+    <h3 className="text-lg font-semibold text-black">ALT 03</h3>
+    <p className="text-gray-800">$45.00</p>
+  </div>
+</div>
+
 </div>
 
 
